@@ -9310,7 +9310,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalRotation: {x: 0.17364816, y: -0, z: -0, w: 0.9848078}
   m_LocalPosition: {x: 0, y: 5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -9326,10 +9326,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 791f9f9dade484d039c44951ea358afc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b2c6027075244161b88c2e0ad26248f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  car: {fileID: 0}
 --- !u!1 &990935228
 GameObject:
   m_ObjectHideFlags: 0
@@ -18231,10 +18230,25 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7403988159217024309, guid: e3d97228bc3394f1d82991e16da000be,
+        type: 3}
+      propertyPath: m_Speed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7403988159217024309, guid: e3d97228bc3394f1d82991e16da000be,
+        type: 3}
+      propertyPath: m_MovementAudio
+      value: 
+      objectReference: {fileID: 1807218367}
     - target: {fileID: 5316872424932408438, guid: e3d97228bc3394f1d82991e16da000be,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316872424932408438, guid: e3d97228bc3394f1d82991e16da000be,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.405
       objectReference: {fileID: 0}
     - target: {fileID: 5316872424932408433, guid: e3d97228bc3394f1d82991e16da000be,
         type: 3}
@@ -18410,6 +18424,12 @@ WheelCollider:
 --- !u!4 &1807218363 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5316872423837145809, guid: e3d97228bc3394f1d82991e16da000be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1807218352}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1807218367 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 5316872424932408438, guid: e3d97228bc3394f1d82991e16da000be,
     type: 3}
   m_PrefabInstance: {fileID: 1807218352}
   m_PrefabAsset: {fileID: 0}
