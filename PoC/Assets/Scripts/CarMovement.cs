@@ -72,7 +72,7 @@ public class CarMovement : MonoBehaviour
     {
         // Vector in car's forward direction
         Vector3 movement = transform.forward * m_MovementInputValue * m_Speed * Time.deltaTime;
-        m_Speed = m_Speed + 0.1f;
+        //m_Speed = m_Speed + 0.05f;
 
         // Apply this movement to the rigidbody's position.
         m_RigidBody.MovePosition(m_RigidBody.position + movement);

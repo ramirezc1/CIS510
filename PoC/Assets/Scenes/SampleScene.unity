@@ -7654,6 +7654,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 788287337}
   m_Mesh: {fileID: 4300038, guid: 4b29ecf28e5fd4b4f86a961aca54fd1e, type: 3}
+--- !u!1 &796216386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5316872423837370107, guid: e3d97228bc3394f1d82991e16da000be,
+    type: 3}
+  m_PrefabInstance: {fileID: 1807218352}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &796216390
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796216386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1629694, y: 4.8790846, z: 1.0357816}
+  m_Center: {x: -0.010247111, y: -0.00000023841858, z: 0.15475851}
 --- !u!1 &798148750
 GameObject:
   m_ObjectHideFlags: 0
@@ -9291,13 +9310,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.30070576, y: -0, z: -0, w: 0.953717}
-  m_LocalPosition: {x: 0, y: 8, z: -10}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: 5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1807218363}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 35, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18090,7 +18109,7 @@ PrefabInstance:
     - target: {fileID: 5316872423837145809, guid: e3d97228bc3394f1d82991e16da000be,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.41
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5316872423837145809, guid: e3d97228bc3394f1d82991e16da000be,
         type: 3}
@@ -18155,7 +18174,7 @@ PrefabInstance:
     - target: {fileID: 5316872424932408435, guid: e3d97228bc3394f1d82991e16da000be,
         type: 3}
       propertyPath: m_Constraints
-      value: 84
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 5316872424932408435, guid: e3d97228bc3394f1d82991e16da000be,
         type: 3}
@@ -18166,6 +18185,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Drag
       value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5316872424932408435, guid: e3d97228bc3394f1d82991e16da000be,
+        type: 3}
+      propertyPath: m_UseGravity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5316872424932408432, guid: e3d97228bc3394f1d82991e16da000be,
         type: 3}
@@ -18207,12 +18231,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5316872424932408438, guid: e3d97228bc3394f1d82991e16da000be,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5316872424932408433, guid: e3d97228bc3394f1d82991e16da000be,
         type: 3}
       propertyPath: MinDistance
       value: 2.3713722
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5316872424932408432, guid: e3d97228bc3394f1d82991e16da000be, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e3d97228bc3394f1d82991e16da000be, type: 3}
 --- !u!1 &1807218353 stripped
 GameObject:
