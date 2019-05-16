@@ -2177,20 +2177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ff6abb24f6304a179103ee2d844f5be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlayerNumber: 1
-  m_Speed: 50
-  m_TurnSpeed: 90
-  m_MovementAudio: {fileID: 247358388}
-  m_EngineIdling: {fileID: 0}
-  m_Accelerataion: {fileID: 0}
-  m_Deceleration: {fileID: 0}
-  m_PitchRange: 0.2
-  m_MovementAxisName: 
-  m_TurnAxisName: 
-  m_RigidBody: {fileID: 0}
-  m_MovementInputValue: 0
-  m_TurnInputValue: 0
-  m_OriginalPitch: 0
 --- !u!114 &247358390
 MonoBehaviour:
   m_ObjectHideFlags: 0

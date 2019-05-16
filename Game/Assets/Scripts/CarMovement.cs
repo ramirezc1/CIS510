@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CarMovement : MonoBehaviour
 {
-    public int m_PlayerNumber = 1;
+    public int m_PlayerNumber;
     public float m_Speed = 12f;
     public float m_TurnSpeed = 180f;
     public AudioSource m_MovementAudio;
