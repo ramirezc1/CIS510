@@ -5,7 +5,8 @@ using UnityEngine;
 public class DelayedStartControl : MonoBehaviour
 {
 
-	public GameObject countDown;
+	public GameObject countDown1;
+    public GameObject countDown2;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,7 +25,8 @@ public class DelayedStartControl : MonoBehaviour
     	while(Time.realtimeSinceStartup < pauseTime){
     		yield return 0;
     	}
-    	countDown.gameObject.SetActive(false);
+    	countDown1.gameObject.SetActive(false);
+        countDown2.gameObject.SetActive(false);
     	Time.timeScale = 1;
     }
 }
