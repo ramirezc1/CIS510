@@ -8,17 +8,17 @@ public class CarMovement : MonoBehaviour
     public float m_Speed = 12f;
     public float m_TurnSpeed = 180f;
     public AudioSource m_MovementAudio;
-    public AudioClip m_EngineIdling;
-    public AudioClip m_Accelerataion;
-    public AudioClip m_Deceleration;
-    public float m_PitchRange = 0.2f;
+    //public AudioClip m_EngineIdling;
+    //public AudioClip m_Accelerataion;
+    //public AudioClip m_Deceleration;
+    //public float m_PitchRange = 0.2f;
 
     private string m_MovementAxisName;
     private string m_TurnAxisName;
     private Rigidbody m_RigidBody;
     private float m_MovementInputValue;
     private float m_TurnInputValue;
-    private float m_OriginalPitch;
+    //private float m_OriginalPitch;
 
     private void Awake()
     {
@@ -46,7 +46,7 @@ public class CarMovement : MonoBehaviour
         m_MovementAxisName = "Vertical" + m_PlayerNumber;
         m_TurnAxisName = "Horizontal" + m_PlayerNumber;
         //m_MovementAudio is of type Audio Source of Unity
-        m_OriginalPitch = m_MovementAudio.pitch;
+       // m_OriginalPitch = m_MovementAudio.pitch;
         
     }
 
