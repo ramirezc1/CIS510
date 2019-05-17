@@ -19222,6 +19222,11 @@ PrefabInstance:
       propertyPath: m_MovementAudio
       value: 
       objectReference: {fileID: 1807218367}
+    - target: {fileID: 7403988159217024309, guid: e3d97228bc3394f1d82991e16da000be,
+        type: 3}
+      propertyPath: m_PlayerNumber
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5316872424932408438, guid: e3d97228bc3394f1d82991e16da000be,
         type: 3}
       propertyPath: m_Enabled
@@ -21052,7 +21057,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69b93b02485a64f7989f8e6e64620616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countDown: {fileID: 291279672}
+  countDown1: {fileID: 291279672}
+  countDown2: {fileID: 938437389}
 --- !u!4 &1963198609
 Transform:
   m_ObjectHideFlags: 0
