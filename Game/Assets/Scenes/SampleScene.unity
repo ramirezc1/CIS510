@@ -1764,7 +1764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laps: 1
 --- !u!65 &172723141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2069,6 +2068,9 @@ GameObject:
   - component: {fileID: 235690076}
   - component: {fileID: 235690075}
   - component: {fileID: 235690074}
+  - component: {fileID: 235690079}
+  - component: {fileID: 235690080}
+  - component: {fileID: 235690081}
   m_Layer: 0
   m_Name: New_car (1)
   m_TagString: Player
@@ -2176,6 +2178,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &235690079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235690073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.5, z: 5}
+  m_Center: {x: 0.15, y: 0, z: -1}
+--- !u!114 &235690080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235690073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 433fa6cbf3f694548a325c3c5945ce71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointArray:
+  - {fileID: 1252259660}
+  - {fileID: 399481934}
+  - {fileID: 1181456724}
+  - {fileID: 401971965}
+  startPos: {x: 0, y: 0, z: 0}
+  Lap: 0
+--- !u!114 &235690081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235690073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6226648bc5443426c9283d6e83fd290c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointArray:
+  - {fileID: 1252259660}
+  - {fileID: 399481934}
+  - {fileID: 1181456724}
+  - {fileID: 401971965}
+  startPos: {x: 0, y: 0, z: 0}
+  Lap: 1
 --- !u!1 &236431474
 GameObject:
   m_ObjectHideFlags: 0
@@ -3626,7 +3679,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laps: 1
 --- !u!65 &387074033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10703,6 +10755,8 @@ GameObject:
   - component: {fileID: 938503499}
   - component: {fileID: 1708618026754679297}
   - component: {fileID: 4901924611209306817}
+  - component: {fileID: 938503500}
+  - component: {fileID: 938503501}
   m_Layer: 0
   m_Name: New_car
   m_TagString: Player
@@ -10778,6 +10832,38 @@ MonoBehaviour:
   m_DecelerationSpeed: 1000
   wc_Torque_Length: 4
   AllowBrake: 0
+--- !u!65 &938503500
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938503496}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 0.5, z: 5}
+  m_Center: {x: 0, y: -0.5, z: -0.5}
+--- !u!114 &938503501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938503496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6226648bc5443426c9283d6e83fd290c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkPointArray:
+  - {fileID: 1252259660}
+  - {fileID: 399481934}
+  - {fileID: 1181456724}
+  - {fileID: 401971965}
+  startPos: {x: 0, y: 0, z: 0}
+  Lap: 1
 --- !u!1 &942053599
 GameObject:
   m_ObjectHideFlags: 0
@@ -17575,7 +17661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laps: 1
 --- !u!65 &1565846877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19170,7 +19255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laps: 1
 --- !u!65 &1676534608
 BoxCollider:
   m_ObjectHideFlags: 0
