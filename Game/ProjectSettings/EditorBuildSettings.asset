@@ -12,14 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/MediumHard.unity
-    guid: e805e8286d2a4446cac428e042f2e926
+    path: Assets/Scenes/EasyMedium.unity
+    guid: a2eea2464bd96416eb0526e3f7cb367c
   - enabled: 1
     path: Assets/Scenes/Medium.unity
     guid: 20e45ec4278d74d2297fb563a5ead6fc
   - enabled: 1
-    path: Assets/Scenes/EasyMedium.unity
-    guid: a2eea2464bd96416eb0526e3f7cb367c
+    path: Assets/Scenes/MediumHard.unity
+    guid: e805e8286d2a4446cac428e042f2e926
   - enabled: 1
     path: Assets/Scenes/Hard.unity
     guid: 990956f1c36a64584b1c104c247edb83
