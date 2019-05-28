@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Checkpoint : MonoBehaviour
 {
 	public Text checkpointText;
+	public Text rankText;
 	void  Start ()
 	{
 
@@ -30,7 +31,9 @@ public class Checkpoint : MonoBehaviour
 				//Add to currentLap if currentCheckpoint is 0
 				if(Laps.currentCheckpoint == 0){
 					if(Laps.currentLap == Laps.totalLaps){
+						
 						checkpointText.text = "You won!";
+						rankText.text = "Your rank is " + (Laps.rank + 1);
 					}
 					Laps.currentLap++;
 				}
