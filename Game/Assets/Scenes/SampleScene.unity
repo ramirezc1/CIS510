@@ -1822,6 +1822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpointText: {fileID: 2092195133}
 --- !u!65 &172723141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3661,6 +3662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpointText: {fileID: 2092195133}
 --- !u!65 &387074033
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3783,7 +3785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 38879fb80d2211342b5c6e8ca726f2f5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.16954
+      value: 50.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 38879fb80d2211342b5c6e8ca726f2f5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -14306,7 +14308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 38879fb80d2211342b5c6e8ca726f2f5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.19
+      value: 50.2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 38879fb80d2211342b5c6e8ca726f2f5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15110,7 +15112,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 38879fb80d2211342b5c6e8ca726f2f5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 50.16954
+      value: 50.1699
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 38879fb80d2211342b5c6e8ca726f2f5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18550,6 +18552,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpointText: {fileID: 2092195133}
 --- !u!65 &1565846877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20294,6 +20297,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpointText: {fileID: 2092195133}
 --- !u!65 &1676534608
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25434,6 +25438,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091016570}
   m_Mesh: {fileID: 4300038, guid: 4b29ecf28e5fd4b4f86a961aca54fd1e, type: 3}
+--- !u!114 &2092195133 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6331387069735922992, guid: e744172790fba466185c1203f34f7082,
+    type: 3}
+  m_PrefabInstance: {fileID: 6331387070498449250}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2095273034
 GameObject:
   m_ObjectHideFlags: 0
@@ -26354,6 +26370,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331387069735922994, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331387069735922992, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_Text
+      value: You are at Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 6036341826425842705, guid: e744172790fba466185c1203f34f7082,
         type: 3}

@@ -6,10 +6,11 @@ public class Laps : MonoBehaviour
 {
     public Transform[] checkPointArray;
     public static Transform[] checkpointA;
-    public static int currentCheckpoint = 0; 
-    public static int currentLap = 0; 
+    public static int currentCheckpoint; 
+    public static int currentLap; 
     public Vector3 startPos;
     public int Lap;
+    public static int totalLaps;
 
     void  Start ()
     {
@@ -21,8 +22,8 @@ public class Laps : MonoBehaviour
 
     void  Update ()
     {
-        Lap = currentLap;
         checkpointA = checkPointArray;
+        totalLaps = Lap;
     }
      
 }

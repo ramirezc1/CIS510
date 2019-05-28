@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Checkpoint : MonoBehaviour
 {
-
+	public Text checkpointText;
 	void  Start ()
 	{
 
@@ -18,20 +19,29 @@ public class Checkpoint : MonoBehaviour
 			return; //If it's not the player dont continue
 
 
+
+
 		if (transform == Laps.checkpointA[Laps.currentCheckpoint].transform) 
 		{
+			checkpointText.text = "You are at checkpoint " + Laps.currentCheckpoint;
 			//Check so we dont exceed our checkpoint quantity
 			if (Laps.currentCheckpoint + 1 < Laps.checkpointA.Length) 
 			{
 				//Add to currentLap if currentCheckpoint is 0
-				if(Laps.currentCheckpoint == 0)
+				if(Laps.currentCheckpoint == 0){
+					if(Laps.currentLap == Laps.totalLaps){
+						checkpointText.text = "You won!";
+					}
 					Laps.currentLap++;
+				}
 				Laps.currentCheckpoint++;
 			} 
 			else 
 			{
 				//If we dont have any Checkpoints left, go back to 0
 				Laps.currentCheckpoint = 0;
+
+
 			}
 		}
  
