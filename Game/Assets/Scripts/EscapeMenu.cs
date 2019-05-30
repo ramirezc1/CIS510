@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -49,5 +49,15 @@ public class EscapeMenu : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+    public void NextLevel()
+    {
+        int i =SceneManager.GetActiveScene().buildIndex;
+	i++;
+	if(i==5)
+		SceneManager.LoadScene(0);
+	else
+		SceneManager.LoadScene(i);
+	
     }
 }
