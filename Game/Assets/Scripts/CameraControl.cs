@@ -6,7 +6,7 @@ public class CameraControl : MonoBehaviour
 
     public Transform car;
     public float distance = 6.4f;
-    public float height = 1.4f;
+    public float height = 2.5f;
     public float rotationDamping = 3.0f;
     public float heightDamping = 2.0f;
     public float zoomRatio = 0.5f;
