@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Checkpoint : MonoBehaviour
 {
 	public Text checkpointText;
+	public GameObject optionMenu;
 	public Text rankText;
 	void  Start ()
 	{
@@ -32,7 +33,8 @@ public class Checkpoint : MonoBehaviour
 				if(Laps.currentCheckpoint == 0){
 					if(Laps.currentLap == Laps.totalLaps){
 						
-						checkpointText.text = "You won!";
+						Time.timeScale = 0f;
+						optionMenu.gameObject.SetActive(true);
 						rankText.text = "Your rank is " + (Laps.rank + 1);
 					}
 					Laps.currentLap++;

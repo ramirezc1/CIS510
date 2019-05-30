@@ -53,6 +53,7 @@ public class EscapeMenu : MonoBehaviour
     public void NextLevel()
     {
         int i =SceneManager.GetActiveScene().buildIndex;
+	i++;
 	if(i==5)
 		SceneManager.LoadScene(0);
 	else

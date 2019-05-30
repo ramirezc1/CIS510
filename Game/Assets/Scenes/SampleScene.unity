@@ -1804,6 +1804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkpointText: {fileID: 2092195133}
+  optionMenu: {fileID: 1669888783}
   rankText: {fileID: 1417055712}
 --- !u!65 &172723138
 BoxCollider:
@@ -3539,6 +3540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkpointText: {fileID: 2092195133}
+  optionMenu: {fileID: 1669888783}
   rankText: {fileID: 1417055712}
 --- !u!65 &387074033
 BoxCollider:
@@ -18395,6 +18397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkpointText: {fileID: 2092195133}
+  optionMenu: {fileID: 1669888783}
   rankText: {fileID: 1417055712}
 --- !u!65 &1565846877
 BoxCollider:
@@ -20122,6 +20125,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662843494}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1669888783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2054124741631926165, guid: e744172790fba466185c1203f34f7082,
+    type: 3}
+  m_PrefabInstance: {fileID: 6331387070498449250}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1676534603 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 38879fb80d2211342b5c6e8ca726f2f5,
@@ -20141,6 +20150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   checkpointText: {fileID: 2092195133}
+  optionMenu: {fileID: 1669888783}
   rankText: {fileID: 1417055712}
 --- !u!65 &1676534605
 BoxCollider:
@@ -26239,6 +26249,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484795911543145843, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e744172790fba466185c1203f34f7082, type: 3}
