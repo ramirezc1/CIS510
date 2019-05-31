@@ -2258,8 +2258,40 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 1944182273}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4760347367617793388, guid: 4e2f89b80293943ec975f41645be1c0c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4e2f89b80293943ec975f41645be1c0c, type: 3}
+--- !u!4 &1183054326 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4760347367800469575, guid: 4e2f89b80293943ec975f41645be1c0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1183054325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1183054327 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4760347367617793384, guid: 4e2f89b80293943ec975f41645be1c0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1183054325}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1183054328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183054327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6507bc90761704fe6b1b72e50e9f2524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  car: {fileID: 1183054326}
+  distance: 6.4
+  height: 2.5
+  rotationDamping: 3
+  heightDamping: 2
+  zoomRatio: 0.5
+  defaultFOV: 60
 --- !u!1 &1195908961
 GameObject:
   m_ObjectHideFlags: 0
@@ -4404,8 +4436,19 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 1944182273}
+    - target: {fileID: 6496156552616402542, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: car
+      value: 
+      objectReference: {fileID: 2127190680}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc36ea93d89b9426f87a573fecae2be4, type: 3}
+--- !u!4 &2127190680 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6496156552003939957, guid: fc36ea93d89b9426f87a573fecae2be4,
+    type: 3}
+  m_PrefabInstance: {fileID: 2127190679}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2128161985
 GameObject:
   m_ObjectHideFlags: 0
