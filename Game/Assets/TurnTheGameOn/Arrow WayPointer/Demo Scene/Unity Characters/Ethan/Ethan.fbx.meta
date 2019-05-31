@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b235179bd2a63d1468dd430670338c55
+guid: 82bf41d283f81463282479ef51ad1996
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable:
@@ -1067,7 +1067,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: EthanWhite
-    second: {fileID: 2100000, guid: f62b52b2d4b721742a0bc5c6b4db468d, type: 2}
+    second: {fileID: 2100000, guid: dd3d8d506386f43f38ae4dd83c4e9c61, type: 2}
   materials:
     importMaterials: 1
     materialName: 1
