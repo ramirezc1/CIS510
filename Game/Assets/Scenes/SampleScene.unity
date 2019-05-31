@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.080953576, g: 0.112309374, b: 0.13073906, a: 1}
+  m_IndirectSpecularColor: {r: 0.08093736, g: 0.11227862, b: 0.13072631, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2127,12 +2127,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234999344}
   m_Mesh: {fileID: 4300038, guid: 4b29ecf28e5fd4b4f86a961aca54fd1e, type: 3}
---- !u!4 &235690078 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3773882637099652980, guid: e69b66a9e69c84e02a3f48c21fd01549,
-    type: 3}
-  m_PrefabInstance: {fileID: 3773882637066342186}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &239321125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26082,11 +26076,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3773882637099652982, guid: e69b66a9e69c84e02a3f48c21fd01549,
-        type: 3}
-      propertyPath: m_Steer
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 3773882637099652976, guid: e69b66a9e69c84e02a3f48c21fd01549,
         type: 3}
       propertyPath: timerText
@@ -26112,31 +26101,6 @@ PrefabInstance:
       propertyPath: checkPointArray.Array.data[3]
       value: 
       objectReference: {fileID: 401971965}
-    - target: {fileID: 3773882636409479774, guid: e69b66a9e69c84e02a3f48c21fd01549,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.77
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773882636409479774, guid: e69b66a9e69c84e02a3f48c21fd01549,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -14.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 3773882636409479774, guid: e69b66a9e69c84e02a3f48c21fd01549,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 1350680067035755314, guid: e69b66a9e69c84e02a3f48c21fd01549,
-        type: 3}
-      propertyPath: height
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1350680067035755314, guid: e69b66a9e69c84e02a3f48c21fd01549,
-        type: 3}
-      propertyPath: car
-      value: 
-      objectReference: {fileID: 235690078}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e69b66a9e69c84e02a3f48c21fd01549, type: 3}
 --- !u!1001 &6331387070498449250
@@ -26275,7 +26239,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6331387070498449252}
     - target: {fileID: 6036341826425842705, guid: e744172790fba466185c1203f34f7082,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -26299,6 +26263,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 6331387070498449250}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6331387070498449252 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7818831029942820479, guid: e744172790fba466185c1203f34f7082,
+    type: 3}
+  m_PrefabInstance: {fileID: 6331387070498449250}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 017adeb19f2d74b81a4e4b9bfb5a31fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7073837967984590608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26445,16 +26421,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7977182582607746372, guid: 3d770a8340eb74722a8276e9a2e8be0a,
-        type: 3}
-      propertyPath: m_PlayerNumber
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7977182582607746372, guid: 3d770a8340eb74722a8276e9a2e8be0a,
-        type: 3}
-      propertyPath: m_Steer
-      value: 30
-      objectReference: {fileID: 0}
     - target: {fileID: 3076951667188751054, guid: 3d770a8340eb74722a8276e9a2e8be0a,
         type: 3}
       propertyPath: timerText
@@ -26480,20 +26446,5 @@ PrefabInstance:
       propertyPath: checkPointArray.Array.data[3]
       value: 
       objectReference: {fileID: 401971965}
-    - target: {fileID: 7977182583320946015, guid: 3d770a8340eb74722a8276e9a2e8be0a,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7977182583320946015, guid: 3d770a8340eb74722a8276e9a2e8be0a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.43
-      objectReference: {fileID: 0}
-    - target: {fileID: 7977182583320946015, guid: 3d770a8340eb74722a8276e9a2e8be0a,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.85
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d770a8340eb74722a8276e9a2e8be0a, type: 3}

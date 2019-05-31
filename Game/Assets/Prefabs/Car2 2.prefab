@@ -969,7 +969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d9af753f3cdb4dd99a03c8e650658de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BrakeKey: 
+  m_BrakeKey: Right
   m_PlayerNumber: 2
   wc:
   - {fileID: 7977182581595974160}
@@ -981,14 +981,88 @@ MonoBehaviour:
   - {fileID: 1814340095368582629}
   - {fileID: 1814340095368582633}
   - {fileID: 1814340095368582631}
+  m_CurrentSpeed: 0
+  m_FwdSpeed: 0
   m_Speed: 300
-  max_Torque: 2000
-  m_Steer: 15
+  max_Torque: 2500
+  m_Steer: 30
   m_Brake: 10000
   m_CenterOfMass: {x: 0, y: -1.5, z: 0}
   m_DecelerationSpeed: 1000
+  m_PitchRange: 0.2
+  CarSound: []
   wc_Torque_Length: 4
   AllowBrake: 0
+  MinRpmTable:
+  - 50
+  - 75
+  - 112
+  - 166.9
+  - 222.4
+  - 278.3
+  - 333.5
+  - 388.2
+  - 435.5
+  - 483.3
+  - 538.4
+  - 594.3
+  - 643.6
+  - 692.8
+  - 741.9
+  - 790
+  NormalRpmTable:
+  - 72
+  - 93
+  - 155.9
+  - 202.8
+  - 267
+  - 314.5
+  - 377.4
+  - 423.9
+  - 472.1
+  - 519.4
+  - 582.3
+  - 631.3
+  - 680.8
+  - 729.4
+  - 778.8
+  - 826.1
+  MaxRpmTable:
+  - 92
+  - 136
+  - 182.9
+  - 247.4
+  - 294.3
+  - 357.5
+  - 403.6
+  - 452.5
+  - 499.3
+  - 562.5
+  - 612.3
+  - 661.6
+  - 708.8
+  - 758.9
+  - 806
+  - 1000
+  PitchingTable:
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.11
+  - 0.1
+  - 0.09
+  - 0.08
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  RangeDivider: 4
+  SoundRPM: 0
 --- !u!95 &8719705833148930574
 Animator:
   serializedVersion: 3
@@ -1289,7 +1363,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7977182583320945984}
   m_LocalRotation: {x: 0.00049717433, y: -0.0118495, z: -0.0002629133, w: -0.99992967}
-  m_LocalPosition: {x: 0.6100006, y: 1.8599854, z: 1.4199829}
+  m_LocalPosition: {x: 0.43, y: 1.85, z: -6.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7977182582609253121}
