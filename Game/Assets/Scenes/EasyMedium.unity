@@ -783,6 +783,7 @@ GameObject:
   - component: {fileID: 245070161}
   - component: {fileID: 245070160}
   - component: {fileID: 245070159}
+  - component: {fileID: 245070162}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -862,6 +863,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 245070157}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &245070162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245070157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointText: {fileID: 886952905}
+  optionMenu: {fileID: 886952904}
+  rankText: {fileID: 1386557644}
 --- !u!1 &301534618
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,6 +956,7 @@ GameObject:
   - component: {fileID: 322531738}
   - component: {fileID: 322531737}
   - component: {fileID: 322531736}
+  - component: {fileID: 322531739}
   m_Layer: 0
   m_Name: Cube (5)
   m_TagString: Untagged
@@ -1019,6 +1036,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322531734}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &322531739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322531734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointText: {fileID: 886952905}
+  optionMenu: {fileID: 886952904}
+  rankText: {fileID: 1386557644}
 --- !u!1 &377285018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1389,7 @@ GameObject:
   - component: {fileID: 493000493}
   - component: {fileID: 493000492}
   - component: {fileID: 493000491}
+  - component: {fileID: 493000494}
   m_Layer: 0
   m_Name: Cube (6)
   m_TagString: Untagged
@@ -1436,6 +1469,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 493000489}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &493000494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493000489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointText: {fileID: 886952905}
+  optionMenu: {fileID: 886952904}
+  rankText: {fileID: 1386557644}
 --- !u!1 &513092144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1823,6 +1871,7 @@ GameObject:
   - component: {fileID: 694302472}
   - component: {fileID: 694302471}
   - component: {fileID: 694302470}
+  - component: {fileID: 694302473}
   m_Layer: 0
   m_Name: Cube (4)
   m_TagString: Untagged
@@ -1902,6 +1951,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 694302468}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &694302473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 694302468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointText: {fileID: 886952905}
+  optionMenu: {fileID: 886952904}
+  rankText: {fileID: 1386557644}
 --- !u!1 &763853963
 GameObject:
   m_ObjectHideFlags: 0
@@ -1914,6 +1978,7 @@ GameObject:
   - component: {fileID: 763853967}
   - component: {fileID: 763853966}
   - component: {fileID: 763853965}
+  - component: {fileID: 763853968}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -1993,6 +2058,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763853963}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &763853968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763853963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointText: {fileID: 886952905}
+  optionMenu: {fileID: 886952904}
+  rankText: {fileID: 1386557644}
 --- !u!1 &780681697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2319,6 +2399,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e744172790fba466185c1203f34f7082, type: 3}
+--- !u!224 &886952903 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6331387070613271234, guid: e744172790fba466185c1203f34f7082,
+    type: 3}
+  m_PrefabInstance: {fileID: 886952902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &886952904 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2054124741631926165, guid: e744172790fba466185c1203f34f7082,
+    type: 3}
+  m_PrefabInstance: {fileID: 886952902}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &886952905 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6331387069735922992, guid: e744172790fba466185c1203f34f7082,
+    type: 3}
+  m_PrefabInstance: {fileID: 886952902}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &938624970
 GameObject:
   m_ObjectHideFlags: 0
@@ -2766,6 +2870,7 @@ GameObject:
   - component: {fileID: 1090543499}
   - component: {fileID: 1090543498}
   - component: {fileID: 1090543497}
+  - component: {fileID: 1090543500}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -2845,6 +2950,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090543495}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1090543500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090543495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointText: {fileID: 886952905}
+  optionMenu: {fileID: 886952904}
+  rankText: {fileID: 1386557644}
 --- !u!4 &1144154948 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4760347367800469575, guid: 4e2f89b80293943ec975f41645be1c0c,
@@ -3242,6 +3362,7 @@ GameObject:
   - component: {fileID: 1337183853}
   - component: {fileID: 1337183852}
   - component: {fileID: 1337183851}
+  - component: {fileID: 1337183854}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -3321,6 +3442,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1337183849}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1337183854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337183849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointText: {fileID: 886952905}
+  optionMenu: {fileID: 886952904}
+  rankText: {fileID: 1386557644}
 --- !u!1001 &1364515286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3393,6 +3529,51 @@ PrefabInstance:
       propertyPath: timerText
       value: 
       objectReference: {fileID: 988924051}
+    - target: {fileID: 4760347367800469624, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: checkPointArray.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4760347367800469624, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 1090543496}
+    - target: {fileID: 4760347367800469624, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 1337183850}
+    - target: {fileID: 4760347367800469624, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1459556157}
+    - target: {fileID: 4760347367800469624, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 694302469}
+    - target: {fileID: 4760347367800469624, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 322531735}
+    - target: {fileID: 4760347367800469624, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[5]
+      value: 
+      objectReference: {fileID: 493000490}
+    - target: {fileID: 4760347367800469624, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 245070158}
+    - target: {fileID: 4760347367800469624, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 763853964}
     m_RemovedComponents:
     - {fileID: 4760347367617793388, guid: 4e2f89b80293943ec975f41645be1c0c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4e2f89b80293943ec975f41645be1c0c, type: 3}
@@ -3402,6 +3583,85 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1364515286}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1386557642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1386557643}
+  - component: {fileID: 1386557645}
+  - component: {fileID: 1386557644}
+  m_Layer: 5
+  m_Name: Text (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1386557643
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386557642}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 886952903}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -100}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1386557644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386557642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Your rank is
+--- !u!222 &1386557645
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1386557642}
+  m_CullTransparentMesh: 0
 --- !u!1 &1459556156
 GameObject:
   m_ObjectHideFlags: 0
@@ -3414,6 +3674,7 @@ GameObject:
   - component: {fileID: 1459556160}
   - component: {fileID: 1459556159}
   - component: {fileID: 1459556158}
+  - component: {fileID: 1459556161}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -3493,6 +3754,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459556156}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1459556161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459556156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c92a8022ca748e6977c06d9db5aa15, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkpointText: {fileID: 886952905}
+  optionMenu: {fileID: 886952904}
+  rankText: {fileID: 1386557644}
 --- !u!1 &1549120383
 GameObject:
   m_ObjectHideFlags: 0
@@ -6927,6 +7203,51 @@ PrefabInstance:
       propertyPath: car
       value: 
       objectReference: {fileID: 1884035509}
+    - target: {fileID: 6496156552003939954, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: checkPointArray.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6496156552003939954, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[0]
+      value: 
+      objectReference: {fileID: 1090543496}
+    - target: {fileID: 6496156552003939954, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[1]
+      value: 
+      objectReference: {fileID: 1337183850}
+    - target: {fileID: 6496156552003939954, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[2]
+      value: 
+      objectReference: {fileID: 1459556157}
+    - target: {fileID: 6496156552003939954, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[3]
+      value: 
+      objectReference: {fileID: 694302469}
+    - target: {fileID: 6496156552003939954, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[4]
+      value: 
+      objectReference: {fileID: 322531735}
+    - target: {fileID: 6496156552003939954, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[5]
+      value: 
+      objectReference: {fileID: 493000490}
+    - target: {fileID: 6496156552003939954, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[6]
+      value: 
+      objectReference: {fileID: 245070158}
+    - target: {fileID: 6496156552003939954, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: checkPointArray.Array.data[7]
+      value: 
+      objectReference: {fileID: 763853964}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc36ea93d89b9426f87a573fecae2be4, type: 3}
 --- !u!1 &1884035508 stripped
