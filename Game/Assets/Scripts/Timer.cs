@@ -7,11 +7,16 @@ public class Timer : MonoBehaviour
 {
 	public Text timerText;
 	private float startTime;
-    private bool finished = false;
+    private static bool finished;
+
+    private static int minutes;
+    private static int seconds;
+    private static int milliseconds;
     // Start is called before the first frame update
     void Start()
     {
         startTime = Time.time;
+        finished = false;
     }
 
     // Update is called once per frame
@@ -22,15 +27,21 @@ public class Timer : MonoBehaviour
         }
         float t = Time.time - startTime;
 
-        string minutes = ((int) t/60).ToString("00");
-        string seconds = (t%60).ToString("00");
-        string milliseconds = ((int) (t*100f)%100).ToString("00");
+        minutes = (int) (t/60);
+        seconds = (int) (t % 60);
+        milliseconds = ((int) (t*100f)%100);
 
-        timerText.text = minutes + ":" + seconds + ":" + milliseconds;
+        string minutesText = minutes.ToString("00");
+        string secondsText = seconds.ToString("00");
+        string millisecondsText = milliseconds.ToString("00");
+
+        timerText.text = minutesText + ":" + secondsText + ":" + millisecondsText;
     }
 
-    public void Finished(){
-        finished = true;
-        timerText.color = Color.yellow;
+    public static void Finished(){
+    	finished = true;
+        PlayerPrefs.SetInt ("MinSave", minutes);
+        PlayerPrefs.SetInt ("SecSave", seconds);
+        PlayerPrefs.SetInt ("MilliSave", milliseconds);
     }
 }

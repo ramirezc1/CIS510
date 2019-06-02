@@ -32,7 +32,7 @@ public class Checkpoint : MonoBehaviour
 				//Add to currentLap if currentCheckpoint is 0
 				if(Laps.currentCheckpoint == 0){
 					if(Laps.currentLap == Laps.totalLaps){
-						
+						Timer.Finished();
 						Time.timeScale = 0f;
 						optionMenu.gameObject.SetActive(true);
 						rankText.text = "Your rank is " + (Laps.rank + 1);
