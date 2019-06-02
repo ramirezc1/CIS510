@@ -306,6 +306,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4760347368021734179}
+  - {fileID: 2466840870018389734}
   m_Father: {fileID: 4760347367800469575}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -773,14 +774,88 @@ MonoBehaviour:
   - {fileID: 4760347367799883882}
   - {fileID: 4760347367733615125}
   - {fileID: 4760347368429031037}
+  m_CurrentSpeed: 0
+  m_FwdSpeed: 0
   m_Speed: 300
   max_Torque: 2000
   m_Steer: 15
   m_Brake: 10000
   m_CenterOfMass: {x: 0, y: -1.5, z: 0}
   m_DecelerationSpeed: 1000
+  m_PitchRange: 0.2
+  CarSound: []
   wc_Torque_Length: 4
   AllowBrake: 0
+  MinRpmTable:
+  - 50
+  - 75
+  - 112
+  - 166.9
+  - 222.4
+  - 278.3
+  - 333.5
+  - 388.2
+  - 435.5
+  - 483.3
+  - 538.4
+  - 594.3
+  - 643.6
+  - 692.8
+  - 741.9
+  - 790
+  NormalRpmTable:
+  - 72
+  - 93
+  - 155.9
+  - 202.8
+  - 267
+  - 314.5
+  - 377.4
+  - 423.9
+  - 472.1
+  - 519.4
+  - 582.3
+  - 631.3
+  - 680.8
+  - 729.4
+  - 778.8
+  - 826.1
+  MaxRpmTable:
+  - 92
+  - 136
+  - 182.9
+  - 247.4
+  - 294.3
+  - 357.5
+  - 403.6
+  - 452.5
+  - 499.3
+  - 562.5
+  - 612.3
+  - 661.6
+  - 708.8
+  - 758.9
+  - 806
+  - 1000
+  PitchingTable:
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.11
+  - 0.1
+  - 0.09
+  - 0.08
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  RangeDivider: 4
+  SoundRPM: 0
 --- !u!95 &4760347367800469570
 Animator:
   serializedVersion: 3
@@ -1421,3 +1496,78 @@ Transform:
   m_Father: {fileID: 4760347367800469575}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &7342608854471599986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4760347367617793389}
+    m_Modifications:
+    - target: {fileID: 5178529798354496948, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_Name
+      value: Waypoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 10c7b609b46f94652954bb898afc8c4f, type: 3}
+--- !u!4 &2466840870018389734 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 7342608854471599986}
+  m_PrefabAsset: {fileID: 0}
