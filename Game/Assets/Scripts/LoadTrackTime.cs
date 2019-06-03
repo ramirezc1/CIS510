@@ -17,9 +17,9 @@ public class LoadTrackTime : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        MinCount = PlayerPrefs.GetInt("MinSave");
-        SecCount = PlayerPrefs.GetInt("SecSave");
-        MilliCount = PlayerPrefs.GetInt("MilliSave");
+        MinCount = PlayerPrefs.GetInt("FirstMinSave");
+        SecCount = PlayerPrefs.GetInt("FirstSecSave");
+        MilliCount = PlayerPrefs.GetInt("FirstMilliSave");
 
         MinDisplay = MinCount.ToString("00");
         SecDisplay = SecCount.ToString("00");

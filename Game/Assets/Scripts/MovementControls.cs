@@ -10,6 +10,8 @@ public class MovementControls : MonoBehaviour
     public string m_BrakeKey;
     public int m_PlayerNumber;
 
+    public static int playerID;
+
 
     public WheelCollider[] wc = new WheelCollider[4];
     public Transform[] tyres = new Transform[4];
@@ -53,7 +55,8 @@ public class MovementControls : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        
+        playerID = m_PlayerNumber;
+
         m_rigidbody = GetComponent<Rigidbody>();
 
         m_rigidbody.centerOfMass = m_CenterOfMass;

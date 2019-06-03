@@ -209,6 +209,11 @@ PrefabInstance:
       propertyPath: checkPointArray.Array.data[1]
       value: 
       objectReference: {fileID: 404307166}
+    - target: {fileID: 2466840870923755530, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: arrowID
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4760347367617793388, guid: 4e2f89b80293943ec975f41645be1c0c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4e2f89b80293943ec975f41645be1c0c, type: 3}
@@ -886,6 +891,11 @@ PrefabInstance:
       propertyPath: checkPointArray.Array.data[1]
       value: 
       objectReference: {fileID: 404307166}
+    - target: {fileID: 7946378677890348042, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: arrowID
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc36ea93d89b9426f87a573fecae2be4, type: 3}
 --- !u!1 &837511157 stripped

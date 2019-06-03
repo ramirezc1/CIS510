@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
 {
 	public Text timerText;
 	private float startTime;
-    private static bool finished;
+    public static bool finished;
 
     private static int minutes;
     private static int seconds;
@@ -39,9 +39,15 @@ public class Timer : MonoBehaviour
     }
 
     public static void Finished(){
-    	finished = true;
-        PlayerPrefs.SetInt ("MinSave", minutes);
-        PlayerPrefs.SetInt ("SecSave", seconds);
-        PlayerPrefs.SetInt ("MilliSave", milliseconds);
+        if(Checkpoint.playerCount == Ranking.playerA.Length){
+            finished = true;
+        }
+        else{
+            PlayerPrefs.SetInt ("FirstMinSave", minutes);
+            PlayerPrefs.SetInt ("FirstSecSave", seconds);
+            PlayerPrefs.SetInt ("FirstMilliSave", milliseconds);
+    	}
+        
+
     }
 }
