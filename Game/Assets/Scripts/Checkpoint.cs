@@ -20,9 +20,6 @@ public class Checkpoint : MonoBehaviour
 		if (!other.CompareTag("Player")) 
 			return; //If it's not the player dont continue
 
-
-
-
 		if (transform == Laps.checkpointA[Laps.currentCheckpoint].transform) 
 		{
 			checkpointText.text = "You are at checkpoint " + Laps.currentCheckpoint;
