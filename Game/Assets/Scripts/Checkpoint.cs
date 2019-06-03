@@ -35,7 +35,7 @@ public class Checkpoint : MonoBehaviour
 						Timer.Finished();
 						//Time.timeScale = 0f;
 						//optionMenu.gameObject.SetActive(true);
-						rankText.text = "Your rank is " + (Laps.rank + 1);
+						//rankText.text = "Your rank is " + (Laps.rank + 1);
 					}
 					Laps.currentLap++;
 				}
