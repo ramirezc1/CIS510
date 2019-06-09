@@ -26333,11 +26333,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 6331387069735922992, guid: e744172790fba466185c1203f34f7082,
-        type: 3}
-      propertyPath: m_Text
-      value: You are at Checkpoint
-      objectReference: {fileID: 0}
     - target: {fileID: 6331387070613271234, guid: e744172790fba466185c1203f34f7082,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26453,40 +26448,15 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 6331387069735922995, guid: e744172790fba466185c1203f34f7082,
+    - target: {fileID: 6331387069735922992, guid: e744172790fba466185c1203f34f7082,
         type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5673951178983214666, guid: e744172790fba466185c1203f34f7082,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3679647083135789608, guid: e744172790fba466185c1203f34f7082,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6331387069735922994, guid: e744172790fba466185c1203f34f7082,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6036341826425842705, guid: e744172790fba466185c1203f34f7082,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 6331387070498449252}
-    - target: {fileID: 6036341826425842705, guid: e744172790fba466185c1203f34f7082,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: MainMenu
+      propertyPath: m_Text
+      value: You are at Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 4641662684996519285, guid: e744172790fba466185c1203f34f7082,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -71
+      value: -28
       objectReference: {fileID: 0}
     - target: {fileID: 4641662684996519285, guid: e744172790fba466185c1203f34f7082,
         type: 3}
@@ -26503,10 +26473,40 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 55
       objectReference: {fileID: 0}
+    - target: {fileID: 6331387069735922995, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673951178983214666, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679647083135789608, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 6331387070101768375, guid: e744172790fba466185c1203f34f7082,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331387069735922994, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6036341826425842705, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 6331387070498449252}
+    - target: {fileID: 6036341826425842705, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e744172790fba466185c1203f34f7082, type: 3}
@@ -26614,6 +26614,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6331387070498449251}
     m_Modifications:
+    - target: {fileID: 7564229751518062708, guid: 012d1e920e3034f5083d27e0814d8ecd,
+        type: 3}
+      propertyPath: m_Name
+      value: SaveTime
+      objectReference: {fileID: 0}
     - target: {fileID: 7564229751518062709, guid: 012d1e920e3034f5083d27e0814d8ecd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26718,11 +26723,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7564229751518062708, guid: 012d1e920e3034f5083d27e0814d8ecd,
-        type: 3}
-      propertyPath: m_Name
-      value: SaveTime
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 012d1e920e3034f5083d27e0814d8ecd, type: 3}
