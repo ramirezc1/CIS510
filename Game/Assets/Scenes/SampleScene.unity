@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.080953576, g: 0.112309374, b: 0.13073906, a: 1}
+  m_IndirectSpecularColor: {r: 0.08093736, g: 0.11227862, b: 0.13072631, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8714,6 +8714,27 @@ MonoBehaviour:
   heightDamping: 2
   zoomRatio: 0.5
   defaultFOV: 60
+--- !u!1 &725926360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4760347367800469568, guid: 4e2f89b80293943ec975f41645be1c0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 725926355}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &725926361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725926360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f463f10f44646519433df2b48a26a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerArray:
+  - {fileID: 725926360}
+  - {fileID: 1063369423}
 --- !u!1 &727323645
 GameObject:
   m_ObjectHideFlags: 0
@@ -12761,6 +12782,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc36ea93d89b9426f87a573fecae2be4, type: 3}
+--- !u!1 &1063369423 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6496156552003939959, guid: fc36ea93d89b9426f87a573fecae2be4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1063369422}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1063369424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063369423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f463f10f44646519433df2b48a26a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerArray:
+  - {fileID: 725926360}
+  - {fileID: 1063369423}
 --- !u!1 &1066209953
 GameObject:
   m_ObjectHideFlags: 0
@@ -16948,7 +16990,7 @@ GameObject:
   - component: {fileID: 1417055712}
   - component: {fileID: 1417055715}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: RankingText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17028,8 +17070,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerArray:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 725926360}
+  - {fileID: 1063369423}
 --- !u!1 &1419623754
 GameObject:
   m_ObjectHideFlags: 0
@@ -22548,11 +22590,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 725926357}
     m_Modifications:
-    - target: {fileID: 5178529798354496948, guid: 10c7b609b46f94652954bb898afc8c4f,
-        type: 3}
-      propertyPath: m_Name
-      value: Waypoint Arrow (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -22607,6 +22644,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354496948, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_Name
+      value: Waypoint Arrow (1)
       objectReference: {fileID: 0}
     - target: {fileID: 5178529799596509048, guid: 10c7b609b46f94652954bb898afc8c4f,
         type: 3}

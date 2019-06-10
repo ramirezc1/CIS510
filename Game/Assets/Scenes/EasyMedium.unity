@@ -2475,6 +2475,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6331387070101768372, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.028301895
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331387070101768372, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.026032403
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331387070101768372, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.026032403
+      objectReference: {fileID: 0}
     - target: {fileID: 6331387070613271234, guid: e744172790fba466185c1203f34f7082,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2589,21 +2604,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6331387070101768372, guid: e744172790fba466185c1203f34f7082,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 0.028301895
-      objectReference: {fileID: 0}
-    - target: {fileID: 6331387070101768372, guid: e744172790fba466185c1203f34f7082,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 0.026032403
-      objectReference: {fileID: 0}
-    - target: {fileID: 6331387070101768372, guid: e744172790fba466185c1203f34f7082,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 0.026032403
       objectReference: {fileID: 0}
     - target: {fileID: 4641662684996519285, guid: e744172790fba466185c1203f34f7082,
         type: 3}
@@ -4148,15 +4148,15 @@ PrefabInstance:
       propertyPath: checkPointArray.Array.data[7]
       value: 
       objectReference: {fileID: 763853964}
-    - target: {fileID: 2466840870923755530, guid: 4e2f89b80293943ec975f41645be1c0c,
-        type: 3}
-      propertyPath: arrowID
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2466840870018389734, guid: 4e2f89b80293943ec975f41645be1c0c,
         type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466840870923755530, guid: 4e2f89b80293943ec975f41645be1c0c,
+        type: 3}
+      propertyPath: arrowID
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4760347367617793388, guid: 4e2f89b80293943ec975f41645be1c0c, type: 3}
@@ -4167,6 +4167,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1364515286}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1364515288 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4760347367800469568, guid: 4e2f89b80293943ec975f41645be1c0c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1364515286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1364515289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364515288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f463f10f44646519433df2b48a26a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerArray:
+  - {fileID: 1364515288}
+  - {fileID: 1884035510}
 --- !u!1 &1386557642
 GameObject:
   m_ObjectHideFlags: 0
@@ -7866,6 +7887,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1884035507}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1884035510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6496156552003939959, guid: fc36ea93d89b9426f87a573fecae2be4,
+    type: 3}
+  m_PrefabInstance: {fileID: 1884035507}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1884035511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884035510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47f463f10f44646519433df2b48a26a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerArray:
+  - {fileID: 1364515288}
+  - {fileID: 1884035510}
 --- !u!1 &1942253990
 GameObject:
   m_ObjectHideFlags: 0

@@ -39,6 +39,8 @@ public class Timer : MonoBehaviour
     }
 
     public static void Finished(){
+    	Debug.Log(Checkpoint.playerCount);
+    	Debug.Log(Ranking.playerA.Length);
         if(Checkpoint.playerCount == Ranking.playerA.Length){
             finished = true;
         }
