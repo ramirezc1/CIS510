@@ -1320,6 +1320,16 @@ PrefabInstance:
       propertyPath: checkPointArray.Array.data[9]
       value: 
       objectReference: {fileID: 2008657461}
+    - target: {fileID: 6496156552616402542, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: car
+      value: 
+      objectReference: {fileID: 283969907}
+    - target: {fileID: 7946378677890348042, guid: fc36ea93d89b9426f87a573fecae2be4,
+        type: 3}
+      propertyPath: arrowID
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 843916380398196165, guid: fc36ea93d89b9426f87a573fecae2be4,
         type: 3}
       propertyPath: m_PlayerNumber
@@ -1344,16 +1354,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CenterOfMass.y
       value: -1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6496156552616402542, guid: fc36ea93d89b9426f87a573fecae2be4,
-        type: 3}
-      propertyPath: car
-      value: 
-      objectReference: {fileID: 283969907}
-    - target: {fileID: 7946378677890348042, guid: fc36ea93d89b9426f87a573fecae2be4,
-        type: 3}
-      propertyPath: arrowID
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc36ea93d89b9426f87a573fecae2be4, type: 3}
@@ -3801,6 +3801,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4641662684996519285, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4641662684996519285, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4641662684996519285, guid: e744172790fba466185c1203f34f7082,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e744172790fba466185c1203f34f7082, type: 3}
