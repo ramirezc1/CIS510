@@ -57,7 +57,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3296505220052759283}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.000076138596, y: -0.008726203, z: 0.008726203, w: 0.9999238}
   m_LocalPosition: {x: -0.87, y: 0.328, z: 1.529}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -148,7 +148,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3296505220052759285}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.000076138596, y: -0.008726203, z: 0.008726203, w: 0.9999238}
   m_LocalPosition: {x: 0.89, y: 0.328, z: 1.529}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -239,7 +239,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3296505220052759287}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.000076138596, y: -0.008726203, z: 0.008726203, w: 0.9999238}
   m_LocalPosition: {x: 0.87, y: 0.32800007, z: -1.5799999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -330,7 +330,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3296505220052759289}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0.000076138596, y: -0.008726203, z: 0.008726203, w: 0.9999238}
   m_LocalPosition: {x: -0.87, y: 0.32800007, z: -1.5800002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -914,6 +914,7 @@ GameObject:
   - component: {fileID: 2171255644224823806}
   - component: {fileID: 6496156552003939955}
   - component: {fileID: 6496156552003939954}
+  - component: {fileID: 843916380398196165}
   m_Layer: 0
   m_Name: Car2
   m_TagString: Player
@@ -964,7 +965,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6496156552003939959}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d9af753f3cdb4dd99a03c8e650658de, type: 3}
   m_Name: 
@@ -1127,6 +1128,112 @@ MonoBehaviour:
   - {fileID: 0}
   startPos: {x: 0, y: 0, z: 0}
   Lap: 1
+--- !u!114 &843916380398196165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6496156552003939959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d949ade10852144e38246dd139fc77bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrakeKey: Right
+  m_PlayerNumber: 2
+  wc:
+  - {fileID: 6496156550858002720}
+  - {fileID: 6496156551757598819}
+  - {fileID: 6496156551654454561}
+  - {fileID: 6496156550916854399}
+  tyres:
+  - {fileID: 3296505220052332243}
+  - {fileID: 3296505220052332245}
+  - {fileID: 3296505220052332249}
+  - {fileID: 3296505220052332247}
+  m_CurrentSpeed: 0
+  m_FwdSpeed: 0
+  m_Speed: 300
+  max_Torque: 2500
+  m_Steer: 30
+  m_Brake: 10000
+  m_CenterOfMass: {x: 0, y: -1.5, z: 0}
+  m_DecelerationSpeed: 1000
+  m_PitchRange: 0.2
+  CarSound: []
+  wc_Torque_Length: 4
+  AllowBrake: 0
+  MinRpmTable:
+  - 50
+  - 75
+  - 112
+  - 166.9
+  - 222.4
+  - 278.3
+  - 333.5
+  - 388.2
+  - 435.5
+  - 483.3
+  - 538.4
+  - 594.3
+  - 643.6
+  - 692.8
+  - 741.9
+  - 790
+  NormalRpmTable:
+  - 72
+  - 93
+  - 155.9
+  - 202.8
+  - 267
+  - 314.5
+  - 377.4
+  - 423.9
+  - 472.1
+  - 519.4
+  - 582.3
+  - 631.3
+  - 680.8
+  - 729.4
+  - 778.8
+  - 826.1
+  MaxRpmTable:
+  - 92
+  - 136
+  - 182.9
+  - 247.4
+  - 294.3
+  - 357.5
+  - 403.6
+  - 452.5
+  - 499.3
+  - 562.5
+  - 612.3
+  - 661.6
+  - 708.8
+  - 758.9
+  - 806
+  - 1000
+  PitchingTable:
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.12
+  - 0.11
+  - 0.1
+  - 0.09
+  - 0.08
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  - 0.06
+  RangeDivider: 4
+  SoundRPM: 0
 --- !u!1 &6496156552005314610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,11 +1617,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6496156552616402543}
     m_Modifications:
-    - target: {fileID: 5178529798354496948, guid: 10c7b609b46f94652954bb898afc8c4f,
-        type: 3}
-      propertyPath: m_Name
-      value: Waypoint
-      objectReference: {fileID: 0}
     - target: {fileID: 5178529798354792852, guid: 10c7b609b46f94652954bb898afc8c4f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1569,6 +1671,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5178529798354496948, guid: 10c7b609b46f94652954bb898afc8c4f,
+        type: 3}
+      propertyPath: m_Name
+      value: Waypoint
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10c7b609b46f94652954bb898afc8c4f, type: 3}
